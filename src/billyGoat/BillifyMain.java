@@ -1,7 +1,5 @@
 package billyGoat;
 
-import java.io.IOException;
-
 public class BillifyMain {
 
 	public static void main(String[] args) {
