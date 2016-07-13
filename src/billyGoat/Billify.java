@@ -18,11 +18,11 @@ public class Billify {
 		}
 		
 		int[] billifiedArray = new int[x.length + 1];
-		int raisePowerBy = 2;
+		int exponent = 2;
 		int total = 0;
 		
 		for(int ii = 0; ii < x.length; ii++){
-			int newNumber = (int) Math.pow(x[ii], raisePowerBy);
+			int newNumber = (int) Math.pow(x[ii], exponent);
 			
 			billifiedArray[ii] = newNumber;
 			
